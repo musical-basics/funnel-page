@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DreamPlay Pianos — Shop</title>
+    <meta name="description"
+        content="Premium piano accessories, wraps, apparel and lifestyle products from DreamPlay Pianos." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/shop.css" />
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="shop-nav">
+        <a href="/" class="shop-nav-logo">
+            <img src="/logo.svg" alt="DreamPlay Pianos" />
+        </a>
+        <ul class="shop-nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/shop.html" class="active">Shop</a></li>
+        </ul>
+        <div style="width:24px"></div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="shop-hero">
+        <h1>The Shop</h1>
+        <p>Premium accessories, wraps, and lifestyle essentials — designed for the modern pianist.</p>
+    </section>
+
+    <!-- Category Tabs -->
+    <div class="shop-categories">
+        <button class="cat-tab active" data-cat="all">All</button>
+        <button class="cat-tab" data-cat="accessories">Piano Accessories</button>
+        <button class="cat-tab" data-cat="wraps">Piano Wraps</button>
+        <button class="cat-tab" data-cat="apparel">Apparel</button>
+        <button class="cat-tab" data-cat="lifestyle">Lifestyle</button>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="shop-grid" id="shop-grid">
+
+        <!-- PIANO ACCESSORIES -->
+        <div class="product-card" data-category="accessories">
+            <div class="product-img-wrap">
+                <img src="/products/cable-ties.png" alt="Premium Cable Ties" loading="lazy" />
+            </div>
+            <div class="product-info">
+                <span class="product-name">Premium Cable Ties (Set of 6)</span>
+                <span class="product-price">$12</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="accessories">
+            <div class="product-img-wrap">
+                <img src="/products/music-stand.png" alt="Folding Music Stand" loading="lazy" />
+            </div>
+            <div class="product-info">
+                <span class="product-name">Folding Music Stand</span>
+                <span class="product-price">$49</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="accessories">
+            <div class="product-img-wrap">
+                <img src="/products/ipad-stand.png" alt="iPad Stand — Adjustable" loading="lazy" />
+                <span class="product-tag">Best Seller</span>
+            </div>
+            <div class="product-info">
+                <span class="product-name">iPad Stand — Adjustable</span>
+                <span class="product-price">$39</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- PIANO WRAPS -->
+        <div class="product-card" data-category="wraps">
+            <div class="product-img-wrap">
+                <img src="/products/wrap-black.png" alt="Black Dream Wrap" loading="lazy" />
+                <span class="product-tag">New</span>
+            </div>
+            <div class="product-info">
+                <span class="product-name">Black Dream Wrap</span>
+                <span class="product-price">$79</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="wraps">
+            <div class="product-img-wrap">
+                <img src="/products/wrap-white.png" alt="Arctic White Wrap" loading="lazy" />
+                <span class="product-tag">New</span>
+            </div>
+            <div class="product-info">
+                <span class="product-name">Arctic White Wrap</span>
+                <span class="product-price">$79</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="wraps">
+            <div class="product-img-wrap">
+                <img src="/products/wrap-black.png" alt="Natural Oak Wrap" loading="lazy" />
+            </div>
+            <div class="product-info">
+                <span class="product-name">Natural Oak Wrap</span>
+                <span class="product-price">$89</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="wraps">
+            <div class="product-img-wrap">
+                <img src="/products/wrap-black.png" alt="Gold Standard Wrap" loading="lazy" />
+            </div>
+            <div class="product-info">
+                <span class="product-name">Gold Standard Wrap</span>
+                <span class="product-price">$99</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- APPAREL -->
+        <div class="product-card" data-category="apparel">
+            <div class="product-img-wrap">
+                <img src="/products/hoodie.png" alt="DreamPlay Logo Hoodie" loading="lazy" />
+                <span class="product-tag">Popular</span>
+            </div>
+            <div class="product-info">
+                <span class="product-name">DreamPlay Logo Hoodie</span>
+                <span class="product-price">$85</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="apparel">
+            <div class="product-img-wrap">
+                <img src="/products/tee.png" alt="DreamPlay Essentials Tee" loading="lazy" />
+            </div>
+            <div class="product-info">
+                <span class="product-name">DreamPlay Essentials Tee</span>
+                <span class="product-price">$45</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="apparel">
+            <div class="product-img-wrap">
+                <img src="/products/cap.png" alt="DreamPlay Cap" loading="lazy" />
+            </div>
+            <div class="product-info">
+                <span class="product-name">DreamPlay Cap</span>
+                <span class="product-price">$35</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- LIFESTYLE -->
+        <div class="product-card" data-category="lifestyle">
+            <div class="product-img-wrap">
+                <img src="/products/airpods-case.png" alt="AirPods Pro Case" loading="lazy" />
+            </div>
+            <div class="product-info">
+                <span class="product-name">AirPods Pro Case</span>
+                <span class="product-price">$29</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="lifestyle">
+            <div class="product-img-wrap">
+                <img src="/products/tumbler.png" alt="Insulated Tumbler Bottle" loading="lazy" />
+            </div>
+            <div class="product-info">
+                <span class="product-name">Insulated Tumbler Bottle</span>
+                <span class="product-price">$38</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="lifestyle">
+            <div class="product-img-wrap">
+                <img src="/products/mug.png" alt="Ceramic Desk Mug" loading="lazy" />
+            </div>
+            <div class="product-info">
+                <span class="product-name">Ceramic Desk Mug</span>
+                <span class="product-price">$28</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="lifestyle">
+            <div class="product-img-wrap">
+                <img src="/products/phone-mount.png" alt="Magnetic Phone Mount" loading="lazy" />
+                <span class="product-tag">New</span>
+            </div>
+            <div class="product-info">
+                <span class="product-name">Magnetic Phone Mount</span>
+                <span class="product-price">$45</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-category="lifestyle">
+            <div class="product-img-wrap">
+                <img src="/products/ipad-stand.png" alt="Magnetic iPad Mount" loading="lazy" />
+            </div>
+            <div class="product-info">
+                <span class="product-name">Magnetic iPad Mount</span>
+                <span class="product-price">$59</span>
+                <button class="product-cta">Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="shop-footer">
+        <div class="shop-footer-logo">
+            <img src="/logo.svg" alt="DreamPlay Pianos" />
+        </div>
+        <p>© 2025 DreamPlay Pianos. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Category filtering
+        const tabs = document.querySelectorAll('.cat-tab');
+        const cards = document.querySelectorAll('.product-card');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Update active tab
+                tabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+
+                const cat = tab.dataset.cat;
+
+                cards.forEach(card => {
+                    if (cat === 'all' || card.dataset.category === cat) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
