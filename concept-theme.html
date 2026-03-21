@@ -17,331 +17,599 @@
 
 <body>
 
-    <!-- Navigation -->
+    <!-- ══════ Navigation ══════ -->
     <nav class="shop-nav">
         <a href="/" class="shop-nav-logo">
             <img src="/logo.svg" alt="DreamPlay Pianos" />
         </a>
         <ul class="shop-nav-links">
             <li><a href="/">Home</a></li>
-            <li><a href="/shop.html" class="active">Shop</a></li>
+            <li><a href="/shop.html">Shop</a></li>
+            <li><a href="/concept-theme.html" class="active">Concept</a></li>
         </ul>
         <div style="width:24px"></div>
     </nav>
 
-    <!-- Hero -->
-    <section class="shop-hero">
-        <h1>The Shop</h1>
-        <p>Premium accessories, wraps, and lifestyle essentials — designed for the modern pianist.</p>
-    </section>
-
-    <!-- Keyboard Hero — Black Dream -->
-    <section class="keyboard-hero keyboard-hero--black">
-        <div class="keyboard-hero__content">
-            <span class="keyboard-hero__label">DreamPlay DS 6.0</span>
-            <h2 class="keyboard-hero__title">Black Dream</h2>
-            <p class="keyboard-hero__desc">Pure darkness. Uncompromising performance. Designed for the artist who
-                commands the stage.</p>
-            <a href="#" class="keyboard-hero__cta">Shop Now</a>
+    <!-- ══════ Full-Viewport Hero ══════ -->
+    <section class="concept-hero reveal">
+        <div class="concept-hero__bg">
+            <img src="/products/keyboard-black-1.png" alt="DreamPlay DS 6.0" />
         </div>
-        <div class="keyboard-hero__images">
-            <img src="/products/keyboard-black-1.png" alt="DreamPlay DS 6.0 Black — Angle 1" loading="lazy" />
-            <img src="/products/keyboard-black-2.png" alt="DreamPlay DS 6.0 Black — Angle 2" loading="lazy" />
+        <div class="concept-hero__overlay"></div>
+        <div class="concept-hero__content">
+            <span class="concept-hero__label">DreamPlay Pianos</span>
+            <h1 class="concept-hero__title">The Collection</h1>
+            <p class="concept-hero__subtitle">Premium accessories, wraps, and lifestyle essentials — designed for the
+                modern pianist.</p>
+            <a href="#products" class="concept-hero__cta">Explore</a>
+        </div>
+        <div class="concept-hero__scroll">
+            <span>Scroll</span>
+            <div class="concept-hero__scroll-line"></div>
         </div>
     </section>
 
-    <!-- Keyboard Hero — Arctic White -->
-    <section class="keyboard-hero keyboard-hero--white">
-        <div class="keyboard-hero__content">
-            <span class="keyboard-hero__label">DreamPlay DS 6.0</span>
-            <h2 class="keyboard-hero__title">Arctic White</h2>
-            <p class="keyboard-hero__desc">Clean. Refined. A statement of elegance that elevates any space it enters.
-            </p>
-            <a href="#" class="keyboard-hero__cta keyboard-hero__cta--dark">Shop Now</a>
+    <!-- ══════ Category Collection Grid ══════ -->
+    <section class="collection-section reveal">
+        <div class="collection-section__header">
+            <h2 class="collection-section__title">Shop by Category</h2>
+            <a href="#products" class="collection-section__link">View All</a>
         </div>
-        <div class="keyboard-hero__images">
-            <img src="/products/keyboard-white-1.png" alt="DreamPlay DS 6.0 White — Angle 1" loading="lazy" />
-            <img src="/products/keyboard-white-2.png" alt="DreamPlay DS 6.0 White — Angle 2" loading="lazy" />
+        <div class="collection-grid reveal-stagger">
+            <div class="collection-card" data-goto="accessories">
+                <div class="collection-card__image">
+                    <img src="/products/cable-ties.png" alt="Piano Accessories" />
+                </div>
+                <div class="collection-card__overlay"></div>
+                <div class="collection-card__content">
+                    <div class="collection-card__name">Accessories</div>
+                    <div class="collection-card__tagline">Essential tools for every session.</div>
+                    <div class="collection-card__arrow">
+                        Shop Now
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="collection-card" data-goto="wraps">
+                <div class="collection-card__image">
+                    <img src="/products/wrap-oak.png" alt="Piano Wraps" />
+                </div>
+                <div class="collection-card__overlay"></div>
+                <div class="collection-card__content">
+                    <div class="collection-card__name">Piano Wraps</div>
+                    <div class="collection-card__tagline">Custom finishes for your keyboard.</div>
+                    <div class="collection-card__arrow">
+                        Shop Now
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="collection-card" data-goto="apparel">
+                <div class="collection-card__image">
+                    <img src="/products/hoodie.png" alt="Apparel" />
+                </div>
+                <div class="collection-card__overlay"></div>
+                <div class="collection-card__content">
+                    <div class="collection-card__name">Apparel</div>
+                    <div class="collection-card__tagline">Wear the movement.</div>
+                    <div class="collection-card__arrow">
+                        Shop Now
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="collection-card" data-goto="lifestyle">
+                <div class="collection-card__image">
+                    <img src="/products/tumbler.png" alt="Lifestyle" />
+                </div>
+                <div class="collection-card__overlay"></div>
+                <div class="collection-card__content">
+                    <div class="collection-card__name">Lifestyle</div>
+                    <div class="collection-card__tagline">Everyday essentials, elevated.</div>
+                    <div class="collection-card__arrow">
+                        Shop Now
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Category Tabs -->
-    <div class="shop-categories">
-        <button class="cat-tab active" data-cat="all">All</button>
-        <button class="cat-tab" data-cat="accessories">Piano Accessories</button>
-        <button class="cat-tab" data-cat="wraps">Piano Wraps</button>
-        <button class="cat-tab" data-cat="apparel">Apparel</button>
-        <button class="cat-tab" data-cat="lifestyle">Lifestyle</button>
+    <!-- ══════ Editorial Band ══════ -->
+    <section class="editorial-section reveal">
+        <div class="editorial-section__image">
+            <img src="/products/keyboard-white-1.png" alt="DreamPlay DS 6.0 Arctic White" />
+        </div>
+        <div class="editorial-section__content">
+            <span class="editorial-section__label">Our Story</span>
+            <h2 class="editorial-section__heading">Designed for the Modern Pianist</h2>
+            <p class="editorial-section__body">Every product in the DreamPlay collection is built with the same
+                philosophy that shapes our keyboards — precision engineering, premium materials, and a relentless focus
+                on
+                the details that matter to musicians.</p>
+            <a href="/" class="editorial-section__cta">Learn More</a>
+        </div>
+    </section>
+
+    <!-- ══════ Marquee Text Band ══════ -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <span>Performance</span>
+            <span class="dot">·</span>
+            <span>Precision</span>
+            <span class="dot">·</span>
+            <span>Premium</span>
+            <span class="dot">·</span>
+            <span>DreamPlay</span>
+            <span class="dot">·</span>
+            <span>Performance</span>
+            <span class="dot">·</span>
+            <span>Precision</span>
+            <span class="dot">·</span>
+            <span>Premium</span>
+            <span class="dot">·</span>
+            <span>DreamPlay</span>
+            <span class="dot">·</span>
+        </div>
     </div>
 
-    <!-- Product Grid -->
-    <div class="shop-grid" id="shop-grid">
-
-        <!-- PIANO ACCESSORIES -->
-        <div class="product-card" data-category="accessories">
-            <div class="product-img-wrap">
-                <img src="/products/cable-ties.png" alt="Premium Cable Ties" loading="lazy" />
-            </div>
-            <div class="product-info">
-                <span class="product-name">Premium Cable Ties (Set of 6)</span>
-                <span class="product-price">$12</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
+    <!-- ══════ Product Grid ══════ -->
+    <section class="products-section" id="products">
+        <div class="products-section__header reveal">
+            <h2 class="products-section__title">All Products</h2>
         </div>
 
-        <div class="product-card" data-category="accessories">
-            <div class="product-img-wrap">
-                <img src="/products/music-stand-led.png" alt="LED Music Stand" loading="lazy" />
-                <span class="product-tag">New</span>
-            </div>
-            <div class="product-info">
-                <span class="product-name">LED Music Stand</span>
-                <span class="product-price">$69</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
+        <!-- Category Tabs -->
+        <div class="shop-categories reveal">
+            <button class="cat-tab active" data-cat="all">All</button>
+            <button class="cat-tab" data-cat="accessories">Accessories</button>
+            <button class="cat-tab" data-cat="wraps">Wraps</button>
+            <button class="cat-tab" data-cat="apparel">Apparel</button>
+            <button class="cat-tab" data-cat="lifestyle">Lifestyle</button>
         </div>
 
-        <div class="product-card" data-category="accessories">
-            <div class="product-img-wrap">
-                <img src="/products/keyboard-stand.png" alt="DreamPlay Z-Stand" loading="lazy" />
-                <span class="product-tag">Best Seller</span>
+        <!-- Grid -->
+        <div class="shop-grid reveal-stagger" id="shop-grid">
+
+            <!-- PIANO ACCESSORIES -->
+            <div class="product-card" data-category="accessories">
+                <div class="product-img-wrap">
+                    <img src="/products/cable-ties.png" alt="Premium Cable Ties" loading="lazy" />
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Accessories</span>
+                    <span class="product-name">Premium Cable Ties (Set of 6)</span>
+                    <span class="product-price">$12</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
             </div>
-            <div class="product-info">
-                <span class="product-name">DreamPlay Z-Stand</span>
-                <span class="product-price">$179</span>
-                <button class="product-cta">Add to Cart</button>
+
+            <div class="product-card" data-category="accessories">
+                <div class="product-img-wrap">
+                    <img src="/products/music-stand-led.png" alt="LED Music Stand" loading="lazy" />
+                    <span class="product-tag">New</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Accessories</span>
+                    <span class="product-name">LED Music Stand</span>
+                    <span class="product-price">$69</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="accessories">
+                <div class="product-img-wrap">
+                    <img src="/products/keyboard-stand.png" alt="DreamPlay Z-Stand" loading="lazy" />
+                    <span class="product-tag">Best Seller</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Accessories</span>
+                    <span class="product-name">DreamPlay Z-Stand</span>
+                    <span class="product-price">$179</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="accessories">
+                <div class="product-img-wrap">
+                    <img src="/products/ipad-stand.png" alt="iPad Stand — Adjustable" loading="lazy" />
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Accessories</span>
+                    <span class="product-name">iPad Stand — Adjustable</span>
+                    <span class="product-price">$39</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- PIANO WRAPS -->
+            <div class="product-card" data-category="wraps">
+                <div class="product-img-wrap">
+                    <img src="/products/keyboard-black-2.png" alt="Black Dream Wrap" loading="lazy" />
+                    <span class="product-tag">New</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Wraps</span>
+                    <span class="product-name">Black Dream Wrap</span>
+                    <span class="product-price">$79</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="wraps">
+                <div class="product-img-wrap">
+                    <img src="/products/keyboard-white-1.png" alt="Arctic White Wrap" loading="lazy" />
+                    <span class="product-tag">New</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Wraps</span>
+                    <span class="product-name">Arctic White Wrap</span>
+                    <span class="product-price">$79</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="wraps">
+                <div class="product-img-wrap">
+                    <img src="/products/wrap-oak.png" alt="Natural Oak Wrap" loading="lazy" />
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Wraps</span>
+                    <span class="product-name">Natural Oak Wrap</span>
+                    <span class="product-price">$89</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="wraps">
+                <div class="product-img-wrap">
+                    <img src="/products/wrap-gold.png" alt="Gold Standard Wrap" loading="lazy" />
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Wraps</span>
+                    <span class="product-name">Gold Standard Wrap</span>
+                    <span class="product-price">$99</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- APPAREL -->
+            <div class="product-card" data-category="apparel">
+                <div class="product-img-wrap">
+                    <img src="/products/hoodie.png" alt="DreamPlay Logo Hoodie — Black" loading="lazy" />
+                    <span class="product-tag">Popular</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Apparel</span>
+                    <span class="product-name">DreamPlay Logo Hoodie — Black</span>
+                    <span class="product-price">$85</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="apparel">
+                <div class="product-img-wrap">
+                    <img src="/products/hoodie-cream.png" alt="DreamPlay Logo Hoodie — Cream" loading="lazy" />
+                    <span class="product-tag">New</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Apparel</span>
+                    <span class="product-name">DreamPlay Logo Hoodie — Cream</span>
+                    <span class="product-price">$85</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="apparel">
+                <div class="product-img-wrap">
+                    <img src="/products/Hoodie A/Hoodie A.png" alt="DreamPlay Founders Hoodie" loading="lazy" />
+                    <span class="product-tag">New</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Apparel</span>
+                    <span class="product-name">DreamPlay Founders Hoodie</span>
+                    <span class="product-price">$59</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="apparel">
+                <div class="product-img-wrap">
+                    <img src="/products/Hoodie B/Hoodie B - Small Cenetered.png" alt="DreamPlay Icon Hoodie"
+                        loading="lazy" />
+                    <span class="product-tag">New</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Apparel</span>
+                    <span class="product-name">DreamPlay Icon Hoodie</span>
+                    <span class="product-price">$59</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="apparel">
+                <div class="product-img-wrap">
+                    <img src="/products/tee.png" alt="DreamPlay Essentials Tee" loading="lazy" />
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Apparel</span>
+                    <span class="product-name">DreamPlay Essentials Tee</span>
+                    <span class="product-price">$45</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="apparel">
+                <div class="product-img-wrap">
+                    <img src="/products/cap.png" alt="DreamPlay Cap" loading="lazy" />
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Apparel</span>
+                    <span class="product-name">DreamPlay Cap</span>
+                    <span class="product-price">$35</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- LIFESTYLE -->
+            <div class="product-card" data-category="lifestyle">
+                <div class="product-img-wrap">
+                    <img src="/products/arm-sleeves.png" alt="DreamPlay Arm Sleeves" loading="lazy" />
+                    <span class="product-tag">New</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Lifestyle</span>
+                    <span class="product-name">DreamPlay Arm Sleeves (Pair)</span>
+                    <span class="product-price">$25</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="lifestyle">
+                <div class="product-img-wrap">
+                    <img src="/products/teddy-bear.png" alt="DreamPlay Teddy Bear" loading="lazy" />
+                    <span class="product-tag">Limited</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Lifestyle</span>
+                    <span class="product-name">DreamPlay Teddy Bear</span>
+                    <span class="product-price">$45</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="lifestyle">
+                <div class="product-img-wrap">
+                    <img src="/products/airpods-case.png" alt="AirPods Pro Case" loading="lazy" />
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Lifestyle</span>
+                    <span class="product-name">AirPods Pro Case</span>
+                    <span class="product-price">$29</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="lifestyle">
+                <div class="product-img-wrap">
+                    <img src="/products/tumbler.png" alt="Insulated Tumbler Bottle" loading="lazy" />
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Lifestyle</span>
+                    <span class="product-name">Insulated Tumbler Bottle</span>
+                    <span class="product-price">$38</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="lifestyle">
+                <div class="product-img-wrap">
+                    <img src="/products/mug.png" alt="Ceramic Desk Mug" loading="lazy" />
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Lifestyle</span>
+                    <span class="product-name">Ceramic Desk Mug</span>
+                    <span class="product-price">$28</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="lifestyle">
+                <div class="product-img-wrap">
+                    <img src="/products/phone-mount.png" alt="Magnetic Phone Mount" loading="lazy" />
+                    <span class="product-tag">New</span>
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Lifestyle</span>
+                    <span class="product-name">Magnetic Phone Mount</span>
+                    <span class="product-price">$45</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="lifestyle">
+                <div class="product-img-wrap">
+                    <img src="/products/ipad-stand.png" alt="Magnetic iPad Mount" loading="lazy" />
+                </div>
+                <div class="product-info">
+                    <span class="product-category-badge">Lifestyle</span>
+                    <span class="product-name">Magnetic iPad Mount</span>
+                    <span class="product-price">$59</span>
+                    <button class="product-cta">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══════ Featured Product Spotlight ══════ -->
+    <section class="spotlight-section reveal">
+        <div class="spotlight-section__bg">
+            <img src="/products/keyboard-black-2.png" alt="DreamPlay DS 6.0" />
+        </div>
+        <div class="spotlight-section__overlay"></div>
+        <div class="spotlight-section__content">
+            <span class="spotlight-section__label">Featured</span>
+            <h2 class="spotlight-section__title">DreamPlay DS 6.0</h2>
+            <p class="spotlight-section__body">61 velocity-sensitive keys. Studio-grade sound engine.
+                Ergonomic design built for hours of play. This is the keyboard that started everything.</p>
+            <div class="spotlight-section__details">
+                <div class="spotlight-detail">
+                    <span class="spotlight-detail__value">61</span>
+                    <span class="spotlight-detail__label">Keys</span>
+                </div>
+                <div class="spotlight-detail">
+                    <span class="spotlight-detail__value">12</span>
+                    <span class="spotlight-detail__label">Sounds</span>
+                </div>
+                <div class="spotlight-detail">
+                    <span class="spotlight-detail__value">5.2</span>
+                    <span class="spotlight-detail__label">kg</span>
+                </div>
+            </div>
+            <a href="/" class="spotlight-section__cta">View Details</a>
+        </div>
+    </section>
+
+    <!-- ══════ Editorial Band (Reversed) ══════ -->
+    <section class="editorial-section editorial-section--reversed reveal">
+        <div class="editorial-section__image">
+            <img src="/products/keyboard-white-2.png" alt="DreamPlay Arctic White" />
+        </div>
+        <div class="editorial-section__content">
+            <span class="editorial-section__label">Craftsmanship</span>
+            <h2 class="editorial-section__heading">Every Detail, Considered</h2>
+            <p class="editorial-section__body">From the weight of each key to the texture of every wrap,
+                DreamPlay products are engineered with the same precision that defines our keyboards.
+                No shortcuts. No compromises.</p>
+            <a href="/" class="editorial-section__cta">Our Process</a>
+        </div>
+    </section>
+
+    <!-- ══════ Testimonials ══════ -->
+    <section class="testimonials-section reveal">
+        <h2 class="testimonials-section__title">What People Are Saying</h2>
+        <div class="testimonials-grid reveal-stagger">
+            <div class="testimonial-card">
+                <div class="testimonial-card__stars">★ ★ ★ ★ ★</div>
+                <p class="testimonial-card__quote">"The build quality is unreal. The DS 6.0 feels like a
+                    keyboard that costs three times as much. DreamPlay understands what musicians actually need."</p>
+                <div class="testimonial-card__author">
+                    <span class="testimonial-card__name">Marcus Chen</span>
+                    <span class="testimonial-card__role">Music Producer</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-card__stars">★ ★ ★ ★ ★</div>
+                <p class="testimonial-card__quote">"I've been through dozens of keyboards. Nothing comes close to
+                    the ergonomic design of the DreamPlay. My wrists thank me every single session."</p>
+                <div class="testimonial-card__author">
+                    <span class="testimonial-card__name">Sophia Laurent</span>
+                    <span class="testimonial-card__role">Classical Pianist</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-card__stars">★ ★ ★ ★ ★</div>
+                <p class="testimonial-card__quote">"The merch quality matches the keyboard quality — which is saying
+                    something. The Founders Hoodie is the most comfortable hoodie I own."</p>
+                <div class="testimonial-card__author">
+                    <span class="testimonial-card__name">James Wright</span>
+                    <span class="testimonial-card__role">YouTube Creator</span>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="product-card" data-category="accessories">
-            <div class="product-img-wrap">
-                <img src="/products/ipad-stand.png" alt="iPad Stand — Adjustable" loading="lazy" />
-            </div>
-            <div class="product-info">
-                <span class="product-name">iPad Stand — Adjustable</span>
-                <span class="product-price">$39</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
+    <!-- ══════ Newsletter CTA ══════ -->
+    <section class="newsletter-section reveal">
+        <h2 class="newsletter-section__title">Stay in the Loop</h2>
+        <p class="newsletter-section__body">Be the first to hear about new products, exclusive drops, and
+            limited editions. No spam — just the good stuff.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault();">
+            <input type="email" placeholder="Your email address" />
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
 
-        <!-- PIANO WRAPS -->
-        <div class="product-card" data-category="wraps">
-            <div class="product-img-wrap">
-                <img src="/products/keyboard-black-2.png" alt="Black Dream Wrap" loading="lazy" />
-                <span class="product-tag">New</span>
-            </div>
-            <div class="product-info">
-                <span class="product-name">Black Dream Wrap</span>
-                <span class="product-price">$79</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="wraps">
-            <div class="product-img-wrap">
-                <img src="/products/keyboard-white-1.png" alt="Arctic White Wrap" loading="lazy" />
-                <span class="product-tag">New</span>
-            </div>
-            <div class="product-info">
-                <span class="product-name">Arctic White Wrap</span>
-                <span class="product-price">$79</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="wraps">
-            <div class="product-img-wrap">
-                <img src="/products/wrap-oak.png" alt="Natural Oak Wrap" loading="lazy" />
-            </div>
-            <div class="product-info">
-                <span class="product-name">Natural Oak Wrap</span>
-                <span class="product-price">$89</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="wraps">
-            <div class="product-img-wrap">
-                <img src="/products/wrap-gold.png" alt="Gold Standard Wrap" loading="lazy" />
-            </div>
-            <div class="product-info">
-                <span class="product-name">Gold Standard Wrap</span>
-                <span class="product-price">$99</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <!-- APPAREL -->
-        <div class="product-card" data-category="apparel">
-            <div class="product-img-wrap">
-                <img src="/products/hoodie.png" alt="DreamPlay Logo Hoodie — Black" loading="lazy" />
-                <span class="product-tag">Popular</span>
-            </div>
-            <div class="product-info">
-                <span class="product-name">DreamPlay Logo Hoodie — Black</span>
-                <span class="product-price">$85</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="apparel">
-            <div class="product-img-wrap">
-                <img src="/products/hoodie-cream.png" alt="DreamPlay Logo Hoodie — Cream" loading="lazy" />
-                <span class="product-tag">New</span>
-            </div>
-            <div class="product-info">
-                <span class="product-name">DreamPlay Logo Hoodie — Cream</span>
-                <span class="product-price">$85</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="apparel">
-            <div class="product-img-wrap">
-                <img src="/products/Hoodie A/Hoodie A.png" alt="DreamPlay Founders Hoodie" loading="lazy" />
-                <span class="product-tag">New</span>
-            </div>
-            <div class="product-info">
-                <span class="product-name">DreamPlay Founders Hoodie</span>
-                <span class="product-price">$59</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="apparel">
-            <div class="product-img-wrap">
-                <img src="/products/Hoodie B/Hoodie B - Small Cenetered.png" alt="DreamPlay Icon Hoodie"
-                    loading="lazy" />
-                <span class="product-tag">New</span>
-            </div>
-            <div class="product-info">
-                <span class="product-name">DreamPlay Icon Hoodie</span>
-                <span class="product-price">$59</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="apparel">
-            <div class="product-img-wrap">
-                <img src="/products/tee.png" alt="DreamPlay Essentials Tee" loading="lazy" />
-            </div>
-            <div class="product-info">
-                <span class="product-name">DreamPlay Essentials Tee</span>
-                <span class="product-price">$45</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="apparel">
-            <div class="product-img-wrap">
-                <img src="/products/cap.png" alt="DreamPlay Cap" loading="lazy" />
-            </div>
-            <div class="product-info">
-                <span class="product-name">DreamPlay Cap</span>
-                <span class="product-price">$35</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <!-- LIFESTYLE -->
-        <div class="product-card" data-category="lifestyle">
-            <div class="product-img-wrap">
-                <img src="/products/arm-sleeves.png" alt="DreamPlay Arm Sleeves" loading="lazy" />
-                <span class="product-tag">New</span>
-            </div>
-            <div class="product-info">
-                <span class="product-name">DreamPlay Arm Sleeves (Pair)</span>
-                <span class="product-price">$25</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="lifestyle">
-            <div class="product-img-wrap">
-                <img src="/products/teddy-bear.png" alt="DreamPlay Teddy Bear" loading="lazy" />
-                <span class="product-tag">Limited</span>
-            </div>
-            <div class="product-info">
-                <span class="product-name">DreamPlay Teddy Bear</span>
-                <span class="product-price">$45</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="lifestyle">
-            <div class="product-img-wrap">
-                <img src="/products/airpods-case.png" alt="AirPods Pro Case" loading="lazy" />
-            </div>
-            <div class="product-info">
-                <span class="product-name">AirPods Pro Case</span>
-                <span class="product-price">$29</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="lifestyle">
-            <div class="product-img-wrap">
-                <img src="/products/tumbler.png" alt="Insulated Tumbler Bottle" loading="lazy" />
-            </div>
-            <div class="product-info">
-                <span class="product-name">Insulated Tumbler Bottle</span>
-                <span class="product-price">$38</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="lifestyle">
-            <div class="product-img-wrap">
-                <img src="/products/mug.png" alt="Ceramic Desk Mug" loading="lazy" />
-            </div>
-            <div class="product-info">
-                <span class="product-name">Ceramic Desk Mug</span>
-                <span class="product-price">$28</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="lifestyle">
-            <div class="product-img-wrap">
-                <img src="/products/phone-mount.png" alt="Magnetic Phone Mount" loading="lazy" />
-                <span class="product-tag">New</span>
-            </div>
-            <div class="product-info">
-                <span class="product-name">Magnetic Phone Mount</span>
-                <span class="product-price">$45</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-        <div class="product-card" data-category="lifestyle">
-            <div class="product-img-wrap">
-                <img src="/products/ipad-stand.png" alt="Magnetic iPad Mount" loading="lazy" />
-            </div>
-            <div class="product-info">
-                <span class="product-name">Magnetic iPad Mount</span>
-                <span class="product-price">$59</span>
-                <button class="product-cta">Add to Cart</button>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- Footer -->
+    <!-- ══════ Expanded Footer ══════ -->
     <footer class="shop-footer">
-        <div class="shop-footer-logo">
-            <img src="/logo.svg" alt="DreamPlay Pianos" />
+        <div class="shop-footer__grid">
+            <div class="shop-footer__brand">
+                <img src="/logo.svg" alt="DreamPlay Pianos" />
+                <p>Premium keyboard instruments and accessories, designed for the modern musician. Built with precision,
+                    played with passion.</p>
+            </div>
+            <div class="shop-footer__col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#products">All Products</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Piano Wraps</a></li>
+                    <li><a href="#">Apparel</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                </ul>
+            </div>
+            <div class="shop-footer__col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/">Our Story</a></li>
+                    <li><a href="/">Technology</a></li>
+                    <li><a href="/">Press</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+            <div class="shop-footer__col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Warranty</a></li>
+                </ul>
+            </div>
         </div>
-        <p>© 2025 DreamPlay Pianos. All rights reserved.</p>
+        <div class="shop-footer__bottom">
+            <p>© 2025 DreamPlay Pianos. All rights reserved.</p>
+            <div class="shop-footer__social">
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+                <a href="#">X</a>
+            </div>
+        </div>
     </footer>
 
+    <!-- ══════ Scripts ══════ -->
     <script>
-        // Category filtering
+        /* ── Scroll-Triggered Reveal (IntersectionObserver) ── */
+        const revealEls = document.querySelectorAll('.reveal, .reveal-stagger');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.12,
+            rootMargin: '0px 0px -40px 0px'
+        });
+
+        revealEls.forEach(el => revealObserver.observe(el));
+
+        /* ── Category Filtering ── */
         const tabs = document.querySelectorAll('.cat-tab');
         const cards = document.querySelectorAll('.product-card');
 
         tabs.forEach(tab => {
             tab.addEventListener('click', () => {
-                // Update active tab
                 tabs.forEach(t => t.classList.remove('active'));
                 tab.classList.add('active');
 
@@ -354,6 +622,32 @@
                         card.classList.add('hidden');
                     }
                 });
+            });
+        });
+
+        /* ── Collection Card Click → Filter ── */
+        document.querySelectorAll('.collection-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const catName = card.dataset.goto;
+                if (!catName) return;
+
+                // Activate the matching tab
+                tabs.forEach(t => {
+                    t.classList.remove('active');
+                    if (t.dataset.cat === catName) t.classList.add('active');
+                });
+
+                // Filter
+                cards.forEach(c => {
+                    if (c.dataset.category === catName) {
+                        c.classList.remove('hidden');
+                    } else {
+                        c.classList.add('hidden');
+                    }
+                });
+
+                // Scroll to products
+                document.getElementById('products').scrollIntoView({ behavior: 'smooth' });
             });
         });
     </script>
